@@ -1,14 +1,10 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <div className="button-components-section">
-        {/* ถ้าสร้าง Component ของ Buttons เสร็จแล้วให้ Uncomment โค้ดด้านล่าง เพื่อดูผลลัพธ์ */}
+        {/* ถ้าสร้าง Component ของ Button เสร็จแล้วให้ Uncomment โค้ดด้านล่าง เพื่อดูผลลัพธ์ */}
         {/* <Button color="primary">Primary</Button>
         <Button color="secondary">Secondary</Button> */}
       </div>
